@@ -1,8 +1,8 @@
 body {
     font-family: Roboto, sans-serif;
     line-height: 1.5;
-    color: #cacaca;
-    background-color: #08020d;
+    color: $Dark-gray;
+    background-color: $Black;
 }
 
 /* Заголовок первого уровня на десктопной версии*/
@@ -44,4 +44,3 @@ h2 {
         text-transform: uppercase;
     }
 }
-

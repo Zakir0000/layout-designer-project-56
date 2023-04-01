@@ -1,1 +1,257 @@
-@import "./basic-settings.css";
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Базовые стили */
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    color: #cacaca;
+    background-color: #08020d;
+  }
+  
+  /* Заголовки на десктоп версии */
+  h1 {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 38px;
+    line-height: 57px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .color-white {
+    color: #ffffff;
+  }
+  
+ .container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image:url("../images/banner.png");
+    background-size: cover;
+    background-position:  center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: 0px auto;
+ }
+
+ .header-style {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+ }
+
+ .form-style {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.3px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #757575;
+
+   
+    width: 248px;
+    height: 25px;
+    padding: 5px 10px;
+    border:none;
+    background: #3C3B3D;
+    border-radius: 50px;
+ }
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.space-beetwen {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 25px;
+    left: 119px;
+    right: 121px;
+}
+
+.ml-auto-0 {
+    margin-left: auto;
+}
+
+.mr-90 {
+    margin-right: 90px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.decor-none {
+    list-style-type: none;
+}
+
+.form-grid {
+    min-width: 270px;
+    min-height: 50px;
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+    border: 2px solid #cacaca;
+    border-radius: 3px;
+    background: transparent;
+    
+}
+
+ .form-grid::placeholder {
+    color: #ffffff;
+ }
+
+ form button[type="submit"] {
+    flex-grow: 1;
+    min-width: 270px;
+    min-height: 50px;
+    max-width: 570px;
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+    border: 2px solid #cacaca;
+    border-radius: 3px;
+    background: #34C176;
+    color: #ffffff;
+    ;
+ }
+
+ .btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 5px;
+ }
+      
+      
+ 
+
+ /* Заголовки на мобильной версии */
+ @media (max-width: 767px) {
+
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+    
+    
+      .container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+      }
+        
+
+    h1 {
+      font-size: 30px;
+      line-height: 45px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  
+    h2 {
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .position-absolute {
+        top: 25px;
+        left: 20px;
+        flex-direction: column;
+    }
+    .flex-col {
+        flex-direction: column;
+        gap:0;
+    }
+
+    .form-style {
+        width: 384px;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .color-white{
+        color: #ffffff;
+    }
+
+    input[width="374"] {
+        min-width: 374px;
+        margin-bottom: 0;
+        
+    }
+
+    .btn {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 24px;
+    }
+  }
+  
+
+
+
+

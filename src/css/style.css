@@ -14,7 +14,7 @@
 
 /* Базовые стили */
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
     line-height: 1.5;
     color: #cacaca;
     background-color: #08020d;
@@ -37,11 +37,27 @@ body {
     color: #ffffff;
   }
 
+  h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+
+  }
+
   .color-white {
     color: #ffffff;
   }
   
  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -85,12 +101,24 @@ body {
     flex-wrap: wrap;
 }
 
+.flex-col {
+    flex-direction: column;
+}
+
 .gap-16 {
     gap: 16px;
 }
 
 .gap-24 {
     gap: 24px;
+}
+
+.gap-47 {
+    gap: 47px;
+}
+
+.gap-50 {
+    gap: 50px;
 }
 
 .space-beetwen {
@@ -128,12 +156,25 @@ body {
     margin-top: 0;
 }
 
+.mt-58 {
+    margin-top: 58px;
+}
+
 .mb-0 {
     margin-bottom: 0;
 }
 
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .pl-0 {
     padding-left: 0;
+}
+
+.pt-100 {
+    padding-top: 100px;
 }
 
 .uppercase {
@@ -174,7 +215,7 @@ body {
  }
 
  .btn {
-    margin-top: 20px;
+    
     margin-bottom: 20px;
     margin-left: 30px;
     margin-right: 30px;
@@ -200,6 +241,13 @@ body {
         padding: 0 20px;
         box-sizing: border-box;
       }
+
+      .container-2 {
+        width: 100%;
+        padding: 100px 20px 0 20px;
+        box-sizing: border-box;
+      }
+      
         
 
     h1 {
@@ -250,8 +298,96 @@ body {
         margin-top: 24px;
     }
   }
-  
+
+@media screen and (min-width: 1240px) {
+    .container, 
+    .container-2 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.pricing-item {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+}
+
+.pricing-item h3 {
+    padding-bottom: 200px;
+}
+
+.pricing-footer {
+    text-align: center;
+    padding: 64px 0 64px 0;
+    margin: 0;
+}
+
+.bg-sub-1 {
+    background-image:url("../images/subscribe_1.png");
+    background-size: cover;
+    background-position:  center;
+    width: 368.2px;
+    height: 615px;
+}
+
+.bg-sub-2 {
+    background-image:url("../images/subscribe_2.png");
+    background-size: cover;
+    background-position:  center;
+    width: 368.2px;
+    height: 615px;
+}
+
+.bg-sub-3 {
+    background-image:url("../images/subscribe_3.png");
+    background-size: cover;
+    background-position:  center;
+    width: 368.2px;
+    height: 615px;
+}
 
 
+.pricing-value {
+    display: flex;
+    gap: 16px;
+    line-height: 1em;
+}
+
+.container-2 .btn {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    padding: 21px 115px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.pos-rel-13 {
+    position: relative;
+    top: -13px;
+}
 
 

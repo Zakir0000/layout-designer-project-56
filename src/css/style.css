@@ -43,7 +43,7 @@ body {
     font-weight: 400;
     font-family: Roboto, sans-serif;
     font-style: normal;
-    text-transform: uppercase;
+    
     text-align: center;
     color: #ffffff;
 
@@ -70,7 +70,7 @@ body {
  }
 
  .header-style {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
@@ -78,7 +78,7 @@ body {
  }
 
  .form-style {
-    font-family: 'Arial';
+    font-family: Arial;
     font-style: normal;
     font-weight: 400;
     font-size: 13.3px;
@@ -297,11 +297,24 @@ body {
         margin-right: 0;
         margin-top: 24px;
     }
+
+    .news-item {
+        flex-direction: column;
+    }
+
+    .order {
+        order: 1;
+    }
+
+    .news-item img {
+        margin-top: 64px;
+    }
   }
 
 @media screen and (min-width: 1240px) {
     .container, 
-    .container-2 {
+    .container-2,
+    .container-3 {
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -389,5 +402,79 @@ body {
     position: relative;
     top: -13px;
 }
+
+.news-item {
+    display: flex;
+    gap: 50px;
+}
+
+.news-item img {
+    max-width: 100%;
+}
+
+.news-img {
+   
+    width: 19px;
+    height: 19px;
+    background-size: cover;
+    background-position:  center;
+}
+
+.news-body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.news-author {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.news-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-footer .btn-2 {
+    display: inline-block;
+    padding: 16px 30px;
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.news-footer .btn-style {
+    font-weight: 400;
+    background-color: #08020D;
+    color: #cacaca;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    max-width: 135px;
+    margin-top: 48px;
+
+}
+
+.orange {
+    color: #f89202;
+}
+
+.gray {
+    color: #cacaca;
+}
+
+.width-135 {
+    width: 135px;
+} 
+
+.height-53 {
+    height: 53px;
+}
+
 
 

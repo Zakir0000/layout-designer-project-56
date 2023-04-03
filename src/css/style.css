@@ -18,6 +18,7 @@ body {
     line-height: 1.5;
     color: #cacaca;
     background-color: #08020d;
+    margin: 0;
   }
   
   /* Заголовки на десктоп версии */
@@ -68,6 +69,41 @@ body {
     padding-bottom: 200px;
     margin: 0px auto;
  }
+
+ .artist-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image:url("../images/Morten\ Harket.png");
+    background-size: cover;
+    background-position:  center;
+    padding: 200px 120px;
+    margin: 0px auto;
+ }
+
+ .artist-btn {
+    width: 200px;
+    padding: 20px 30px;
+    font-size: 12.8px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .bg-red {
+    background-color: #95390c;
+  }
+
+  .bg-perple {
+    background-color: #5328a1;
+  }
+  
 
  .container-footer {
     /* display: flex; */
@@ -313,7 +349,16 @@ body {
         padding: 100px 20px 0 20px;
         box-sizing: border-box;
       }
+
+      .artist-container {
+        width: 100%;
+        padding-left: 20px;
+      }
       
+      .flex-col-414 {
+        flex-direction: column;
+        gap:0;
+      }
         
 
     h1 {
@@ -333,6 +378,7 @@ body {
     .position-absolute {
         top: 25px;
         left: 20px;
+        
         flex-direction: column;
     }
     .flex-col {
@@ -341,7 +387,7 @@ body {
     }
 
     .form-style {
-        width: 384px;
+        width: 100%;
     }
 
     .bold {
@@ -408,6 +454,16 @@ body {
 
     .width-full {
         width: 100%;
+    }
+
+    .align-items-start-414 {
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .div-414 {
+        margin-left: 0;
+        width: 90%;
     }
 
   }
@@ -641,6 +697,18 @@ footer {
     height: 2px;
     width: 100%;
     border-top: 1px solid #cacaca;
+  }
+
+  .heart {
+    width: 20px;
+    height: 17.79px;
+    filter:invert(1);
+  }
+
+  .vector {
+    width: 20px;
+    height: 20px;
+    filter:invert(1);
   }
 
 

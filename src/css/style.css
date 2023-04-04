@@ -8,17 +8,30 @@
     src: url("../fonts/Roboto-Bold.ttf");
 }
 
-*, *:before, *:after {
+* {
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
 /* Базовые стили */
-body {
+html {
     font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
-    color: #cacaca;
     background-color: #08020d;
+}
+
+
+body {
     margin: 0;
+    min-height: 100vh;
+    overflow: auto;
+    
+    
   }
   
   /* Заголовки на десктоп версии */
@@ -112,16 +125,15 @@ body {
  .container-3 {
     width: clamp(390px, 100%, 1240px);
     padding-top: 100px;
-    padding-left:20px;
-    padding-right: 20px;
+    
     margin: 0 auto;
  }
 
  .container-4 {
     padding-top: 100px;
     width: clamp(390px, 100%, 1240px);
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0;
+    padding-right: 0;
     
     margin: 0 auto;
 }
@@ -132,6 +144,13 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.container-6 {
+    width: clamp(390px, 100%, 1240px);
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0 auto;
 }
 
@@ -915,5 +934,19 @@ footer {
     align-items: flex-start;
 }
 
+.z-index-1 {
+    z-index: 1;
+}
 
+.aa-start {
+    align-items: start;
+}
+
+.mt-18 {
+    margin-top: 18px;
+}
+
+.pb-62 {
+    padding-bottom: 62px;
+}
 

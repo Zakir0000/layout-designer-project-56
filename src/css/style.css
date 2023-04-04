@@ -47,7 +47,15 @@ body {
     
     text-align: center;
     color: #ffffff;
+  }
 
+  h4 {
+    font-size: 18px;
+    line-height: 27px;
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
   }
 
   a {
@@ -107,11 +115,15 @@ body {
     padding-left:20px;
     padding-right: 20px;
     margin: 0 auto;
-    
-    
-
-
  }
+
+ .container-4 {
+    padding-top: 100px;
+    width: clamp(390px, 100%, 1240px);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
 
  .artist-btn {
     width: 200px;
@@ -561,14 +573,22 @@ body {
         display: flex;
         flex-wrap: wrap;
     }
+    .to-414 {
+        width: 137px;
+        height: 137px;
+    }
 
-
+    .h2-t0-414 {
+        margin:0;
+        padding-bottom: 48px;
+    }
   }
 
 @media screen and (min-width: 1240px) {
     .container, 
     .container-2,
     .container-3,
+    .container-4,
     .artist-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -849,6 +869,12 @@ footer {
     justify-content: flex-start;
     align-items: center;
     gap: 0 16px;
+  }
+
+  .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 50px;
   }
 
 

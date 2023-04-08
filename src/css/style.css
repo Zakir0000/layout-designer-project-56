@@ -572,12 +572,13 @@ span {
     display: flex;
     flex-direction: column;
     padding-right: 50px;
+    padding-top: 25px;
 }
 
 .pd-item-img{
     width: 250px;
     height: 250px;
-    padding-top: 25px;
+    
 }
 
 .pd-item p:nth-child(2){

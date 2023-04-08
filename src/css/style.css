@@ -771,14 +771,27 @@ span {
    padding: 0;
    }
 
-   .pd-item-img{
-    width: 137px;
-    height: 137px;
+   .pd-header{
+    padding-bottom: 49px;
    }
 
-   .pd-item-img:nth-child(odd){
-    margin-right: 50px;
+   .pd-inner{
+    gap: 25px 50px;
    }
+
+   .pd-item p{
+    width: 137px;
+   }
+
+   .pd-item-img{ 
+    width: 137px;
+    height: 137px;
+    padding:0;
+    }
+
+   /* .pd-item-img:nth-child(odd){
+    margin-right: 50px;
+   } */
 
    .page-similar-item-img{
     width: 137px;

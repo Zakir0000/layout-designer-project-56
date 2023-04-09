@@ -689,8 +689,24 @@ span {
         font-weight: 700;
     }
 
+    .menu-list-main{
+        font-weight: 400;
+    }
+
+   .to-700{
+    font-weight: 700;
+   }
+
+   .input-main-2{
+    margin-top: 0;
+   }
+
     .page-description-inner {
         padding: 225px 0 0;
+    }
+
+    .page-description-inner-main {
+        padding: 250px 0 0;
     }
 
     .mb-16{ 

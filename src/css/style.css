@@ -161,7 +161,7 @@ span {
     flex: 1 1 270px;
     min-height: 50px;
     padding-left: 20px;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.5rem;
     margin-top: 1rem;
     border: 2px solid #cacaca;
     border-radius: 3px;
@@ -177,7 +177,7 @@ span {
 .btn {
     width: 100%;
     height: auto;
-    padding: 21px 30px;
+    padding: 20px 30px;
     border-radius: 5px;
     font-size: 13.3px;
     font-weight: 400;

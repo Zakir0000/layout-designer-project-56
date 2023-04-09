@@ -178,7 +178,7 @@ span {
 .btn {
     width: 100%;
     height: auto;
-    padding: 21px 30px;
+    padding: 20px 30px;
     border-radius: 5px;
     font-size: 13.3px;
     font-weight: 400;
@@ -192,6 +192,10 @@ span {
     background-color: #34c176;
     text-decoration: none;
     color: #ffffff;
+}
+
+.h-57{
+    height: 57px;
 }
 
 .page-pricing-inner{
@@ -703,7 +707,7 @@ span {
     }
 
     .menu-list {
-        gap: 3px;
+        gap: 0;
         margin-bottom: 18px;
         font-weight: 700;
     }

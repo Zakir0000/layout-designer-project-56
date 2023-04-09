@@ -178,7 +178,7 @@ span {
 .btn {
     width: 100%;
     height: auto;
-    padding: 20px 30px;
+    padding: 21px 30px;
     border-radius: 5px;
     font-size: 13.3px;
     font-weight: 400;
@@ -703,7 +703,7 @@ span {
     }
 
     .menu-list {
-        gap: 0;
+        gap: 3px;
         margin-bottom: 18px;
         font-weight: 700;
     }

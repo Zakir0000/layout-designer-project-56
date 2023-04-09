@@ -665,7 +665,7 @@ span {
 
     .input-header {
         width: 100%;
-        height: 30px;
+        height: 28px;
     }
 
     .header-inner .menu {
@@ -689,8 +689,12 @@ span {
         font-weight: 700;
     }
 
-    .h-52{
-        height: 52px;
+    .h-50{
+        height: 50px;
+    }
+
+    .h-57{
+        height: 57px;
     }
 
     .menu-list-main{

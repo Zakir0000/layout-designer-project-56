@@ -177,7 +177,7 @@ span {
 .btn {
     width: 100%;
     height: auto;
-    padding: 20px 30px;
+    padding: 21px 30px;
     border-radius: 5px;
     font-size: 13.3px;
     font-weight: 400;
@@ -236,6 +236,14 @@ span {
     background-image: url(../images/subscribe_3.png);
     background-position: center;
     background-size: cover;
+}
+
+.w-59{
+    width: 59px;
+}
+
+.h-13{
+    height: 13px;
 }
 
 .pricing-value{
@@ -306,7 +314,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     gap: 0 24px;
-    justify-content: flex-start;
+    align-items: center;
 }
 
 .footer-col {

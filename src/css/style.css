@@ -57,6 +57,7 @@ h2 {
     line-height: 57px;
     font-weight: 700;
     text-transform: uppercase;
+    color: #ffffff;
 }
 
 h3 {
@@ -315,6 +316,7 @@ span {
     flex-wrap: wrap;
     gap: 0 24px;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .footer-col {
@@ -430,6 +432,10 @@ span {
 
 .orange{
     color: #f89202;
+}
+
+.dark-gray{
+    color: #cacaca;
 }
 
 .news-item-img-0{
@@ -728,10 +734,6 @@ span {
 
     .mb-16{ 
         margin-bottom: 16px;
-    }
-
-    .dark-gray{
-        color: #cacaca;
     }
 
     .mb-28{

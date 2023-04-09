@@ -371,6 +371,7 @@ span {
     line-height: 45px;
     font-weight: 400;
     padding-bottom: 21px;
+    text-transform: none;
 }
 
 .news-header-h3-0{
@@ -379,6 +380,10 @@ span {
     font-weight: 400;
     padding-top: 65px;
     padding-bottom: 30px;
+    text-transform: none;
+}
+.mb-28{
+    margin-bottom: 28px;
 }
 
 .news-body-wrapper{
@@ -449,7 +454,7 @@ span {
     flex-direction: column; 
     width: 50%;
     line-height: 1.5;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .page-app-img{
@@ -468,7 +473,7 @@ span {
     border-radius: 32px;
     background: #95390c;
     max-width: 131px;
-    margin-top: 16px;
+    margin-top: 15px;
 }
 
 .bg-Morten-Harket{
@@ -701,10 +706,6 @@ span {
         height: 50px;
     }
 
-    .h-60{
-        height: 60px;
-    }
-
     .menu-list-main{
         font-weight: 400;
     }
@@ -727,6 +728,14 @@ span {
 
     .mb-16{ 
         margin-bottom: 16px;
+    }
+
+    .dark-gray{
+        color: #cacaca;
+    }
+
+    .mb-28{
+        margin-bottom: 0;
     }
 
     .footer-inner{

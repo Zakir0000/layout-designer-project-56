@@ -387,6 +387,10 @@ span {
     
 }
 
+.text-transform-none{
+    text-transform: none;
+}
+
 .news-header-h3{
     font-size: 30px;
     line-height: 45px;
@@ -466,26 +470,33 @@ span {
     padding-top:100px;
 }
 
+.m-t-b-16{
+    margin: 16px 0;
+}
+
 .mb-100{
     margin-bottom: 100px;
 }
 
 .page-app-inner{
     display: flex;  
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0 9rem;
 }
 
 .page-app-text{
-    display: flex;
-    flex-direction: column; 
-    width: 50%;
+    
+    flex: 1 1 350px;
+    max-width: 600px;
     line-height: 1.5;
-    padding-top: 20px;
 }
 
 .page-app-img{
     display: flex;
     justify-content: center;
-    width: 50%;
+    
 }
 
 .pb-48{
@@ -493,12 +504,14 @@ span {
 }
 
 .page-app-link{
-    padding: 16px 40px;
+    padding: 19px 40px;
     border: none;
     border-radius: 32px;
     background: #95390c;
     max-width: 131px;
-    margin-top: 15px;
+    margin-top: 16px;
+    display: block;
+   
 }
 
 .bg-Morten-Harket{

@@ -437,8 +437,10 @@ span {
 
 .page-app-text{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     width: 50%;
+    line-height: 1.5;
+    padding-top: 10px;
 }
 
 .page-app-img{
@@ -447,8 +449,8 @@ span {
     width: 50%;
 }
 
-.pb-64{
-    padding-bottom: 64px;
+.pb-48{
+    padding-bottom: 48px;
 }
 
 .page-app-link{
@@ -592,6 +594,7 @@ span {
     color: #ffffff;
     padding-top: 100px;
     padding-bottom: 48px;
+    line-height: 1;
 }
 
 .page-similar-inner{
@@ -613,8 +616,8 @@ span {
     color: #ffffff;
 }
 
-.page-similar-item p{
-    width: 137px;
+.page-similar-item p:nth-child(2){
+    padding-top: 18px;
 }
 
 
@@ -812,7 +815,10 @@ span {
     gap: 25px 50px;
    }
 
-   
+   .page-similar-item p{
+    width: 137px;
+    line-height: 1.4;
+   }
 
    
 }

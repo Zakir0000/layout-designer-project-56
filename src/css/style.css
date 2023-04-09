@@ -603,14 +603,18 @@ span {
     padding-bottom: 100px;
 }
 
-.page-similar-item-img{
+/* .page-similar-item-img{
     padding-bottom: 17px;
-}
+} */
 
 .page-similar-item p:nth-child(2){
     font-size: 18px;
     font-weight: 700;
     color: #ffffff;
+}
+
+.page-similar-item p{
+    width: 137px;
 }
 
 

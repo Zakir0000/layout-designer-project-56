@@ -221,10 +221,15 @@ span {
 
 }
 
-.pricing-item{  
-    flex: 1 1 350px; 
+.pricing-item{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 350px;
+    flex-direction: column;
     max-width: 450px;  
+    text-align: center;
     border-radius: 16px;
+    align-items: center;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
@@ -273,7 +278,6 @@ span {
 
     font-size: 64px;
     line-height: 64px;
-    padding-top: 16px
 }
 
 .pricing-value sup:nth-child(2){

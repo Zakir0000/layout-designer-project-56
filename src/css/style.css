@@ -224,11 +224,14 @@ span {
 .pricing-item{
     display: flex;
     flex-wrap: wrap;
+    flex: 1 1 350px;
     flex-direction: column;
-    max-width: 368.6px;  
+    max-width: 450px;  
     text-align: center;
     border-radius: 16px;
     align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .page-pricing-h2 {
@@ -286,15 +289,16 @@ span {
 .pricing-item .btn {
     background-color: transparent;
     border: 1px solid #ffffff;
-    max-width: 318.66px;
-    padding: 21px 113.66px 21px 115px;
-    margin: 51px 0 64px;
+    width: 100%;
+    height: auto;
+    padding: 24.5px 30px 24.5px 30px;
+    margin: 40px 0 64px;
 }
 
 .pricing-footer{
     font-size: 12.8px;
     line-height: 150%;
-    margin: 0 28.2px 64px 22px;
+    margin: 0 0 64px;
     color: #ffffff;
 }
 
@@ -379,10 +383,16 @@ span {
     flex-wrap: wrap;
 }
 
-.news-item,
 .news-item-0{
     display: flex;
-    align-items: flex-end;
+    align-items:flex-end;
+    justify-content: space-between;
+    
+}
+
+.news-item{
+    display: flex;
+    align-items:flex-start;
     justify-content: space-between;
     
 }
@@ -425,12 +435,17 @@ span {
     
 }
 
+.fs-12{
+    font-size: 12.8px;
+    line-height: 150%;
+}
+
 .btn-page-news{
     padding: 16px 30px;
     border: 1px solid #cacaca;
     border-radius: 5px;
     display: inline;
-    max-width: 138px;
+    max-width: 135px;
 }
 
 .news-author{

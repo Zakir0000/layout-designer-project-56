@@ -716,6 +716,12 @@ span {
         text-transform: uppercase;
     }
 
+    .news-item-img-0,
+    .news-item-img {
+        width: 100%;
+        height: auto;
+    }
+
     .header .container{
         margin:0;
     }

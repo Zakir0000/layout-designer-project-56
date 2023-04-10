@@ -952,16 +952,14 @@ span {
     font-weight: 700;
    }
 
-   .pricing-item {
-
-    flex: 1 1 350px;
-    max-width: 450px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-   }
+   
 
    .pricing-item h3 {
     padding: 16px 0 200px;
+}
+
+.page-pricing-h2 {
+    padding: 101px 0 44px;
 }
    
 }

@@ -221,15 +221,10 @@ span {
 
 }
 
-.pricing-item{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 350px;
-    flex-direction: column;
+.pricing-item{  
+    flex: 1 1 350px; 
     max-width: 450px;  
-    text-align: center;
     border-radius: 16px;
-    align-items: center;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
@@ -964,9 +959,7 @@ span {
     margin-bottom: 39px;
 }
 
-.page-pricing-h2 {
-    padding: 101px 0 44px;
-}
+
    
 }
 

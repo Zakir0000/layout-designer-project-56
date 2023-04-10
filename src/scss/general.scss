@@ -1,26 +1,26 @@
 body {
-    font-family: Roboto, sans-serif;
-    line-height: 1.5;
-    color: $Dark-gray;
-    background-color: $Black;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  color: $Dark-gray;
+  background-color: $Black;
 }
 
-/* Заголовок первого уровня на десктопной версии*/
+/* Заголовок первого уровня на десктопной версии */
 
 h1 {
-    font-size: 60px;
-    line-height: 90px;
-    font-weight: bold;
-    text-transform: uppercase;
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-/* Заголовок второго уровня на десктопной версии*/
+/* Заголовок второго уровня на десктопной версии */
 
 h2 {
-    font-size: 38px;
-    line-height: 57px;
-    font-weight: bold;
-    text-transform: uppercase;
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* Заголовок первого уровня на мобильной версии */
@@ -37,10 +37,10 @@ h2 {
 /* Заголовок второго уровня на мобильной версии */
 
 @media (max-width: 767px) {
-    h2 {
-        font-size: 18px;
-        line-height: 27px;
-        font-weight: bold;
-        text-transform: uppercase;
+  h2 {
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: bold;
+      text-transform: uppercase;
     }
 }

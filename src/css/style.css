@@ -392,7 +392,7 @@ span {
 
 .news-item{
     display: flex;
-    align-items:flex-start;
+   
     justify-content: space-between;
     
 }
@@ -705,6 +705,13 @@ span {
     h2 {
         font-size: 18px;
         line-height: 27px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-size: 16px;
+        line-height: 24px;
         font-weight: 700;
         text-transform: uppercase;
     }

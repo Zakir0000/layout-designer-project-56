@@ -26,21 +26,21 @@ h2 {
 /* Заголовок первого уровня на мобильной версии */
 
 @media (max-width: 767px) {
-    h1 {
-        font-size: 30px;
-        line-height: 45px;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 }
 
 /* Заголовок второго уровня на мобильной версии */
 
 @media (max-width: 767px) {
   h2 {
-      font-size: 18px;
-      line-height: 27px;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 }

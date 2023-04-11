@@ -39,13 +39,13 @@
   line-height: 16px;
 }
 
-  //  artist.html page-description part  //
+//  artist.html page-description part  //
 
 .bg-morten-harket {
-  background-image: url('../images/Morten\ Harket.png');
+  background-image: url("../images/Morten\ Harket.png");
   background-position: center;
   background-size: cover;
-} 
+}
 
 .wrapper-to-btn {
   display: flex;
@@ -68,4 +68,3 @@
   border-radius: 5px;
   width: 200px;
 }
- 

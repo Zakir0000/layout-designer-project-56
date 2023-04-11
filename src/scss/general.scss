@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: "Roboto-Bold";
+  font-family: Roboto-Bold;
   font-weight: 700;
   src: url("../fonts/Roboto-Bold.ttf");
 }
@@ -19,7 +19,8 @@ html {
   margin: 0;
   padding: 0;
 
-  &::after, &::before {
+  &::after,
+  &::before {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
@@ -73,7 +74,7 @@ h3 {
 }
 
 .bg-banner {
-  background-image: url(../images/banner.png);
+  background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
@@ -94,10 +95,9 @@ h3 {
 }
 
 .btn-style {
-  border-width: 0px;
+  border-width: 0;
   border-style: solid;
   background-color: $grin;
   text-decoration: none;
   color: $white;
 }
-

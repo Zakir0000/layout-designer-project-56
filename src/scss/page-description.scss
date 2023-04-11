@@ -1,45 +1,43 @@
-
 .form-structure {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 1.5rem 1.5rem;
-    max-width: 570px;
-    margin: 0 auto;
-    text-transform: uppercase;
-  }
-  
-.input {
-    display: flex;
-    flex: 1 1 200px;
-    min-height: 50px;
-    padding-left: 20px;
-    border: 2px solid $dark-gray;
-    border-radius: 3px;
-    background-color: transparent;
-  }
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.5rem 1.5rem;
+  max-width: 570px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
 
+.input {
+  display: flex;
+  flex: 1 1 200px;
+  min-height: 50px;
+  padding-left: 20px;
+  border: 2px solid $dark-gray;
+  border-radius: 3px;
+  background-color: transparent;
+}
 
 .page-descrip-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-  
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .form-structure ::placeholder {
-    color: $white;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
-  }
+  color: $white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
 
   //  artist.html page-description part  //
 
@@ -70,8 +68,4 @@
   border-radius: 5px;
   width: 200px;
 }
-
-
-
-  
-  
+ 

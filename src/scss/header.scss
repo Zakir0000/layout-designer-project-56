@@ -1,0 +1,53 @@
+
+.header {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+  }
+  
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-list {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .menu-list-link, span {
+    color: $white;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 16px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem 90px;
+  }
+  
+  .input-header {
+    width: 248px;
+    height: 25px;
+    padding: 5px 10px;
+  }
+  
+  .input-style {
+    font-family: inherit;
+    border-radius: 50px;
+    border: none;
+    background-color: $dark;
+  }
+  

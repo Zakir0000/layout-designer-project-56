@@ -1,0 +1,29 @@
+.page-app-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0 9rem;
+}
+  
+.page-app-text {
+  flex: 1 1 350px;
+  max-width: 600px;
+  line-height: 1.5;
+}
+  
+.page-app-img {
+  display: flex;
+  justify-content: center;
+}
+
+.page-app-link {
+  padding: 19px 40px;
+  border: none;
+  border-radius: 32px;
+  background: $red;
+  max-width: 131px;
+  margin-top: 16px;
+  display: block;
+}
+  

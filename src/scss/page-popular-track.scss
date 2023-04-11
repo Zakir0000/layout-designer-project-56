@@ -1,0 +1,41 @@
+.ppt-header {
+  color: $white;
+  padding-top: 100px;
+  padding-bottom: 48px;
+}
+  
+.ppt-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 0;
+}
+  
+.ppt-menu-item {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+  
+.ppt-menu-img {
+  width: 55px;
+  height: 55px;
+}
+  
+.ppt-menu-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  color: $white;
+  font-size: 12.8px;
+  
+    p {
+      &:nth-child(1) {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+  
+      &:nth-child(2) {
+        color: $gray;
+      }
+    }
+  }

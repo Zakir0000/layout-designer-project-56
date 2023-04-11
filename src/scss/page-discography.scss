@@ -1,0 +1,30 @@
+.pd-header {
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 23px;
+}
+  
+.pd-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+.pd-item {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  padding-top: 25px;
+}
+  
+.pd-item-img {
+  width: 250px;
+  height: 250px;
+}
+  
+.pd-item p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 18px;
+}
+  

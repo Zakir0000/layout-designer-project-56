@@ -1,0 +1,22 @@
+.page-similar-header {
+  color: $white;
+  padding-top: 100px;
+  padding-bottom: 48px;
+  line-height: 57px;
+}
+  
+.page-similar-inner {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 25px 50px;
+  margin-bottom: 100px;
+}
+
+.page-similar-item p:nth-child(2) {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  color: $white;
+  padding-top: 15px;
+}

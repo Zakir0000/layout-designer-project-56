@@ -38,7 +38,7 @@
     width: 100%;
     height: auto;
   }
-
+  
   .header-inner,
   .footer-inner {
     flex-direction: column;
@@ -70,11 +70,11 @@
   header .container {
     padding: 0;
   }
-
+  
   .header .container {
     margin: 0;
   }
-
+  
   .header {
     display: flex;
     flex-flow: column wrap;
@@ -83,7 +83,7 @@
   .h-50 {
     height: 50px;
   }
-
+  
   .menu-list-main {
     font-weight: 400;
   }

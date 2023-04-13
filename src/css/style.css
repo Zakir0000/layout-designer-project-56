@@ -268,6 +268,14 @@ span {
   padding-top: 64px;
 }
 
+.pt-24 {
+  padding-top: 24px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
 .form-structure {
   display: flex;
   flex-flow: row wrap;
@@ -471,14 +479,6 @@ span {
   display: flex;
   flex-direction: column;
   gap: 48px;
-  padding-top: 24px;
-}
-
-.news-footer-0 {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-  padding-top: 15px;
 }
 
 .page-app-inner {

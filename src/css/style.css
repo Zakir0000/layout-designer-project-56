@@ -256,6 +256,14 @@ span {
   padding-top: 2px;
 }
 
+.pl-50 {
+  padding-left: 50px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
 .form-structure {
   display: flex;
   flex-flow: row wrap;
@@ -741,8 +749,6 @@ span {
   }
   .news-body-wrapper {
     padding: 0;
-  }
-  .news-body-wrapper-0 {
     display: flex;
     width: 100%;
   }

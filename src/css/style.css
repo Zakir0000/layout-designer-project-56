@@ -1,12 +1,12 @@
 @font-face {
   font-family: Roboto;
   font-weight: 400;
-  src: url("../fonts/roboto-regular.woff2");
+  src: url("../fonts/Roboto-Regular.woff");
 }
 @font-face {
   font-family: Roboto-Bold;
   font-weight: 700;
-  src: url("../fonts/roboto-bold.woff2");
+  src: url("../fonts/Roboto-Bold.woff");
 }
 html {
   box-sizing: border-box;

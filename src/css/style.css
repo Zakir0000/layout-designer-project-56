@@ -264,6 +264,10 @@ span {
   padding-bottom: 30px;
 }
 
+.pt-65 {
+  padding-top: 64px;
+}
+
 .form-structure {
   display: flex;
   flex-flow: row wrap;
@@ -418,14 +422,11 @@ span {
   flex-flow: column wrap;
 }
 
-.news-item-0 {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-
 .news-item {
   display: flex;
+}
+
+.space-between {
   justify-content: space-between;
 }
 
@@ -438,15 +439,6 @@ span {
   font-size: 30px;
   line-height: 45px;
   font-weight: 400;
-  padding-bottom: 30px;
-  text-transform: none;
-}
-
-.news-header-h3-0 {
-  font-size: 30px;
-  line-height: 45px;
-  font-weight: 400;
-  padding-top: 65px;
   padding-bottom: 30px;
   text-transform: none;
 }
@@ -745,11 +737,10 @@ span {
     display: flex;
     width: 100%;
   }
-  .news-header-h3,
-  .news-header-h3-0 {
+  .news-header-h3 {
     font-size: 16px;
   }
-  .news-item-0 {
+  .reverse {
     display: flex;
     flex-direction: column-reverse;
   }
@@ -820,7 +811,7 @@ span {
     line-height: 1.4;
   }
   .news-body-inner h3 {
-    padding-top: 47px;
+    padding-top: 50px;
     padding-bottom: 16px;
     line-height: 24px;
   }

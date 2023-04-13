@@ -8,14 +8,11 @@
   flex-flow: column wrap;
 }
 
-.news-item-0 {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-
 .news-item {
   display: flex;
+}
+
+.space-between {
   justify-content: space-between;
 }
 
@@ -28,15 +25,6 @@
   font-size: 30px;
   line-height: 45px;
   font-weight: 400;
-  padding-bottom: 30px;
-  text-transform: none;
-}
-
-.news-header-h3-0 {
-  font-size: 30px;
-  line-height: 45px;
-  font-weight: 400;
-  padding-top: 65px;
   padding-bottom: 30px;
   text-transform: none;
 }

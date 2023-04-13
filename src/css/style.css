@@ -454,13 +454,6 @@ span {
 .news-body-wrapper {
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
-  padding-bottom: 30px;
-}
-
-.news-body-wrapper-0 {
-  display: flex;
-  flex-direction: column;
   width: 50%;
 }
 

@@ -430,6 +430,10 @@ span {
   justify-content: space-between;
 }
 
+.align-items {
+  align-items: flex-end;
+}
+
 .news-item-img-0 {
   max-width: 575px;
   max-height: 286px;

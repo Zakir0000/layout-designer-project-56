@@ -839,6 +839,12 @@ span {
     gap: 50px 50px;
     margin-bottom: 39px;
   }
+  .color-mod-gray {
+    color: #e0e0e0;
+  }
+  .color-mod-white {
+    color: #fff;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

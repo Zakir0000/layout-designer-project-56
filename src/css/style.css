@@ -27,6 +27,10 @@ ul {
   list-style: none;
 }
 
+ul li {
+  color: #e0e0e0;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -161,6 +165,10 @@ span {
 
 .dark-gray {
   color: #cacaca;
+}
+
+.gray {
+  color: #e0e0e0;
 }
 
 .text-transform-none {
@@ -604,7 +612,6 @@ span {
 .footer-inner {
   display: flex;
   flex-wrap: wrap;
-  color: #fff;
 }
 
 .logo {
@@ -636,6 +643,11 @@ span {
   gap: 0 16px;
   padding-top: 40px;
   padding-bottom: 49px;
+}
+
+.footer-col-link {
+  display: flex;
+  gap: 24px;
 }
 
 @media screen and (max-width: 767px) {

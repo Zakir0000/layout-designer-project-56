@@ -1,7 +1,6 @@
 .footer-inner {
   display: flex;
   flex-wrap: wrap;
-  color: $white;
 }
 
 .logo {
@@ -35,4 +34,9 @@
   gap: 0 16px;
   padding-top: 40px;
   padding-bottom: 49px;
+}
+
+.footer-col-link {
+  display: flex;
+  gap: 24px;
 }

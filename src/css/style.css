@@ -244,6 +244,18 @@ span {
   margin-right: 49px;
 }
 
+.h3 {
+  font-weight: 400;
+}
+
+.pb-3 {
+  padding-bottom: 3px;
+}
+
+.pricing-item {
+  padding-top: 2px;
+}
+
 .form-structure {
   display: flex;
   flex-flow: row wrap;
@@ -827,17 +839,6 @@ span {
     gap: 50px 50px;
     margin-bottom: 39px;
   }
-  
-  .h3 {
-    font-weight: 400;
-  }
-
-  .pb-3 {
-    padding-bottom: 3px;
-  }
-
-  .pricing-item {
-    padding-top: 2px;
-  }
 }
+
 /*# sourceMappingURL=style.css.map */

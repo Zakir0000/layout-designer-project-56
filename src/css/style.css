@@ -616,8 +616,6 @@ span {
 }
 
 .footer-col {
-  display: flex;
-  flex-flow: column wrap;
   flex-grow: 1;
   padding: 62px 0 72px;
 }

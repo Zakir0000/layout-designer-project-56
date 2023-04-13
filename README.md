@@ -5,7 +5,7 @@
 # Project "Music Box"
 
 ## Deployment to surge
-https://music-box-layout-project-ZakriKhunkaev.surge.sh
+https://music-box-layout-project-Zakir-Khunkaev.surge.sh
 
 
 

@@ -831,6 +831,10 @@ span {
   .pb-2 {
     padding-bottom: 2px;
   }
+
+  .h3 {
+    font-weight: 400;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

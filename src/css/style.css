@@ -451,11 +451,6 @@ span {
   align-items: flex-end;
 }
 
-.news-item-img-0 {
-  max-width: 575px;
-  max-height: 286px;
-}
-
 .news-header-h3 {
   font-size: 30px;
   line-height: 45px;
@@ -670,7 +665,6 @@ span {
     font-weight: 700;
     text-transform: uppercase;
   }
-  .news-item-img-0,
   .news-item-img {
     width: 100%;
     height: auto;

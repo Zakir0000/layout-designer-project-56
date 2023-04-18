@@ -284,6 +284,10 @@ span {
   padding-top: 24px;
 }
 
+.pt-18 {
+  padding-top: 18px;
+}
+
 .pt-15 {
   padding-top: 15px;
 }
@@ -545,8 +549,6 @@ span {
   display: flex;
   flex-direction: column;
   padding-left: 15px;
-  color: #fff;
-  font-size: 12.8px;
 }
 .ppt-menu-text p:nth-child(1) {
   text-transform: uppercase;
@@ -583,14 +585,11 @@ span {
   font-size: 18px;
   font-weight: 700;
   color: #fff;
-  padding-top: 18px;
 }
 
 .page-similar-header {
-  color: #fff;
   padding-top: 100px;
   padding-bottom: 48px;
-  line-height: 57px;
 }
 
 .page-similar-inner {
@@ -606,7 +605,6 @@ span {
   line-height: 27px;
   font-weight: 700;
   color: #fff;
-  padding-top: 15px;
 }
 
 .footer-inner {

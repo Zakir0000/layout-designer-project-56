@@ -220,6 +220,10 @@ span {
   line-height: 150%;
 }
 
+.fs-12-0 {
+  font-size: 12px;
+}
+
 .fs-16 {
   font-size: 16px;
 }
@@ -462,11 +466,11 @@ span {
 .news-body-wrapper {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 575px;
 }
 
 .btn-page-news {
-  padding: 16px 30px;
+  padding: 18px 30px;
   border: 1px solid #cacaca;
   border-radius: 5px;
   display: inline;

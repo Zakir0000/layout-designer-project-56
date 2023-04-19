@@ -12,15 +12,18 @@ html {
   box-sizing: border-box;
 }
 
-* {
+body {
+  margin: 0;
+  padding: 0;
+}
+body::after, body::before {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
-*::after, *::before {
+
+* {
   box-sizing: inherit;
-  margin: 0;
-  padding: 0;
 }
 
 ul {
@@ -290,6 +293,22 @@ span {
 
 .pt-15 {
   padding-top: 15px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
 }
 
 .form-structure {

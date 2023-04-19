@@ -20,11 +20,6 @@ ul li {
   color: #e0e0e0;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -177,6 +172,10 @@ span {
 
 .list-style-none {
   list-style: none;
+}
+
+.text-decor-none {
+  text-decoration: none;
 }
 
 .bg-red {

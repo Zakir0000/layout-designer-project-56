@@ -14,18 +14,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-
-  &::after,
-  &::before {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-  }
-}
-
 * {
   box-sizing: inherit;
 }
@@ -56,6 +44,15 @@ body {
   line-height: 1.5;
   color: $dark-gray;
   background-color: $black;
+  margin: 0;
+  padding: 0;
+
+  &::after,
+  &::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  } 
 }
 
 h1 {

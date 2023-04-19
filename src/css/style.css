@@ -16,10 +16,6 @@ html {
   box-sizing: inherit;
 }
 
-ul {
-  list-style: none;
-}
-
 ul li {
   color: #e0e0e0;
 }
@@ -177,6 +173,10 @@ span {
 
 .text-align-center {
   text-align: center;
+}
+
+.list-style-none {
+  list-style: none;
 }
 
 .bg-red {

@@ -464,6 +464,7 @@ span {
 
 .news-item {
   display: flex;
+  justify-content: space-between;
 }
 
 .space-between {

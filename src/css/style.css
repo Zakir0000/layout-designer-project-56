@@ -225,7 +225,7 @@ span {
   font-size: 16px;
 }
 
-.mb-28 {
+.mb-size {
   margin-bottom: 28px;
 }
 
@@ -249,7 +249,7 @@ span {
   margin-left: auto;
 }
 
-.mr-49 {
+.mr-size {
   margin-right: 49px;
 }
 
@@ -273,7 +273,7 @@ span {
   padding-bottom: 30px;
 }
 
-.pt-65 {
+.pt-64 {
   padding-top: 64px;
 }
 
@@ -724,10 +724,10 @@ span {
   .page-description-inner-main {
     padding: 248px 0 0;
   }
-  .mb-16 {
+  .mb-15 {
     margin-bottom: 14.95px;
   }
-  .mb-28 {
+  .mb-size {
     margin-bottom: 0;
   }
   .footer-inner {
@@ -777,7 +777,7 @@ span {
   .wrapper-to-btn {
     flex-direction: column;
   }
-  .bg-purple {
+  .mb-24 {
     margin-bottom: 24px;
   }
   .ppt-menu {
@@ -786,7 +786,7 @@ span {
   .ppt-menu-item {
     width: 100%;
   }
-  .mr-49 {
+  .mr-size {
     margin-right: 0;
   }
   .pd-item {

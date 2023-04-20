@@ -69,12 +69,7 @@
   .header .container {
     margin: 0;
   }
-
-  .header {
-    display: flex;
-    flex-flow: column wrap;
-  }
-
+  
   .h-50 {
     height: 50px;
   }
@@ -153,10 +148,6 @@
     padding-bottom: 16px;
   }
 
-  .page-app-inner {
-    flex-direction: column;
-  }
-
   .page-app-text {
     order: 1;
     width: 100%;
@@ -164,6 +155,7 @@
 
   .page-app-img {
     width: 100%;
+    justify-content: center;
   }
 
   .wrapper-to-btn {

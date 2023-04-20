@@ -45,15 +45,11 @@ body::after, body::before {
 h1 {
   font-size: 60px;
   line-height: 90px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 h2 {
   font-size: 38px;
   line-height: 57px;
-  font-weight: 700;
-  text-transform: uppercase;
   color: #fff;
 }
 
@@ -61,7 +57,6 @@ h3 {
   font-size: 24px;
   line-height: 36px;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 .bg-banner {
@@ -98,7 +93,6 @@ h3 {
   top: 25px;
   left: 0;
   right: 0;
-  text-transform: uppercase;
 }
 
 .header-inner {
@@ -176,6 +170,10 @@ span {
 
 .text-decor-none {
   text-decoration: none;
+}
+
+.to-upper-case {
+  text-transform: uppercase;
 }
 
 .bg-red {
@@ -433,7 +431,6 @@ span {
 }
 
 .pricing-item .btn {
-  background-color: transparent;
   border: 1px solid #fff;
   width: 100%;
   height: auto;
@@ -525,7 +522,6 @@ span {
 
 .page-app-img {
   display: flex;
-  justify-content: center;
 }
 
 .page-app-link {
@@ -562,8 +558,6 @@ span {
 }
 
 .ppt-menu-text {
-  display: flex;
-  flex-direction: column;
   padding-left: 15px;
 }
 .ppt-menu-text p:nth-child(1) {
@@ -643,7 +637,6 @@ span {
 .footer-col h2 {
   font-size: 18px;
   line-height: 27px;
-  font-weight: 700;
   margin-bottom: 15px;
 }
 .footer-col a {
@@ -713,10 +706,6 @@ span {
   .header .container {
     margin: 0;
   }
-  .header {
-    display: flex;
-    flex-flow: column wrap;
-  }
   .h-50 {
     height: 50px;
   }
@@ -777,15 +766,13 @@ span {
   .pb-16 {
     padding-bottom: 16px;
   }
-  .page-app-inner {
-    flex-direction: column;
-  }
   .page-app-text {
     order: 1;
     width: 100%;
   }
   .page-app-img {
     width: 100%;
+    justify-content: center;
   }
   .wrapper-to-btn {
     flex-direction: column;

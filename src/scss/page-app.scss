@@ -18,10 +18,13 @@
 
 .page-app-link {
   padding: 19px 40px;
-  border: none;
-  border-radius: 32px;
-  background: $red;
   max-width: 131px;
   margin-top: 16px;
   display: block;
+}
+
+.page-app-link-style {
+  border: none;
+  border-radius: 32px;
+  background-color: $red;
 }

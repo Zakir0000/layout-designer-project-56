@@ -321,6 +321,9 @@ span {
   flex: 1 1 200px;
   min-height: 50px;
   padding-left: 20px;
+}
+
+.input-stl {
   border: 2px solid #cacaca;
   border-radius: 3px;
   background-color: transparent;
@@ -439,10 +442,13 @@ span {
 }
 
 .pricing-footer {
+  margin: 0 0 64px;
+}
+
+.pricing-footer-style {
+  color: #fff;
   font-size: 12.8px;
   line-height: 150%;
-  margin: 0 0 64px;
-  color: #fff;
 }
 
 .page-pricing-bottom {
@@ -526,16 +532,18 @@ span {
 
 .page-app-link {
   padding: 19px 40px;
-  border: none;
-  border-radius: 32px;
-  background: #95390c;
   max-width: 131px;
   margin-top: 16px;
   display: block;
 }
 
+.page-app-link-style {
+  border: none;
+  border-radius: 32px;
+  background-color: #95390c;
+}
+
 .ppt-header {
-  color: #fff;
   padding-top: 100px;
   padding-bottom: 48px;
 }
@@ -569,7 +577,6 @@ span {
 }
 
 .pd-header {
-  color: #fff;
   padding-top: 100px;
   padding-bottom: 23px;
 }

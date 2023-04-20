@@ -63,10 +63,13 @@
 }
 
 .pricing-footer {
+  margin: 0 0 64px;
+}
+
+.pricing-footer-style {
+  color: $white;
   font-size: 12.8px;
   line-height: 150%;
-  margin: 0 0 64px;
-  color: $white;
 }
 
 .page-pricing-bottom {

@@ -250,4 +250,10 @@
   .color-mod-white {
     color: $white;
   }
+
+  .footer-col {
+    & .mb-21 {
+      margin-bottom: 21px;
+    }
+  }
 }

@@ -840,6 +840,9 @@ span {
   .color-mod-white {
     color: #fff;
   }
+  .footer-col .mb-21 {
+    margin-bottom: 21px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

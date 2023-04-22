@@ -55,11 +55,14 @@
 }
 
 .pricing-item .btn {
-  border: 1px solid $white;
   width: 100%;
   height: auto;
   padding: 24.5px 30px;
   margin: 40px 0 64px;
+}
+
+.btn-border-style {
+  border: 1px solid $white;
 }
 
 .pricing-footer {

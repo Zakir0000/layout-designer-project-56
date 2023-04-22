@@ -426,11 +426,14 @@ span {
 }
 
 .pricing-item .btn {
-  border: 1px solid #fff;
   width: 100%;
   height: auto;
   padding: 24.5px 30px;
   margin: 40px 0 64px;
+}
+
+.btn-border-style {
+  border: 1px solid #fff;
 }
 
 .pricing-footer {
@@ -730,6 +733,9 @@ span {
   .footer-col {
     padding: 0;
   }
+  .footer-col .mb-19 {
+    margin-bottom: 19px;
+  }
   .footer-end {
     flex-direction: column;
     gap: 16px 0;
@@ -839,9 +845,6 @@ span {
   }
   .color-mod-white {
     color: #fff;
-  }
-  .footer-col .mb-19 {
-    margin-bottom: 19px;
   }
 }
 

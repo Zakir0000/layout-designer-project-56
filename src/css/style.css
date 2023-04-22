@@ -479,7 +479,7 @@ span {
   padding: 18px 30px;
   border: 1px solid #cacaca;
   border-radius: 5px;
-  display: inline;
+  display: inline-block;
   max-width: 135px;
 }
 
@@ -487,6 +487,11 @@ span {
   display: flex;
   align-items: center;
   gap: 0 16px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+.news-author.pt-15 {
+  padding-top: 15px;
 }
 
 .news-footer {

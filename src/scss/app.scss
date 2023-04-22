@@ -108,6 +108,10 @@
 
   .footer-col {
     padding: 0;
+
+    & .mb-19 {
+      margin-bottom: 19px;
+    }
   }
 
   .footer-end {
@@ -249,11 +253,5 @@
 
   .color-mod-white {
     color: $white;
-  }
-
-  .footer-col {
-    & .mb-19 {
-      margin-bottom: 19px;
-    }
   }
 }

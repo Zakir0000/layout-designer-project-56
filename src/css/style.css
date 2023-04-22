@@ -253,10 +253,6 @@ span {
   margin-right: 49px;
 }
 
-.h3 {
-  font-weight: 400;
-}
-
 .pb-3 {
   padding-bottom: 3px;
 }
@@ -464,6 +460,7 @@ span {
 .news-item {
   display: flex;
   justify-content: space-between;
+  gap: 0 50px;
 }
 
 .space-between {
@@ -480,12 +477,6 @@ span {
   font-weight: 400;
   padding-bottom: 30px;
   text-transform: none;
-}
-
-.news-body-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 575px;
 }
 
 .btn-page-news {
@@ -664,20 +655,17 @@ span {
   h1 {
     font-size: 30px;
     line-height: 45px;
-    font-weight: 700;
-    text-transform: uppercase;
   }
   h2 {
     font-size: 18px;
     line-height: 27px;
-    font-weight: 700;
-    text-transform: uppercase;
   }
   h3 {
     font-size: 16px;
     line-height: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
+  }
+  .h3 {
+    font-weight: 400;
   }
   .news-item-img {
     width: 100%;
@@ -725,7 +713,7 @@ span {
     padding: 225px 0 0;
   }
   .page-description-inner-main {
-    padding: 248px 0 0;
+    padding: 248px 20px 0;
   }
   .mb-15 {
     margin-bottom: 14.95px;
@@ -747,11 +735,10 @@ span {
   }
   .news-item {
     display: block;
+    width: 100%;
   }
   .news-body-wrapper {
-    padding: 0;
-    display: flex;
-    width: 100%;
+    flex-direction: column;
   }
   .news-header-h3 {
     font-size: 16px;

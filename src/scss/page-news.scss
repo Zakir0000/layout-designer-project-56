@@ -11,6 +11,7 @@
 .news-item {
   display: flex;
   justify-content: space-between;
+  gap: 0 50px;
 }
 
 .space-between {
@@ -27,10 +28,6 @@
   font-weight: 400;
   padding-bottom: 30px;
   text-transform: none;
-}
-
-.news-body-wrapper {
-  width: 575px;
 }
 
 .btn-page-news {

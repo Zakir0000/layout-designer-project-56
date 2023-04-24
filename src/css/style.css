@@ -650,11 +650,6 @@ span {
   padding-bottom: 49px;
 }
 
-.footer-col-link {
-  display: flex;
-  gap: 24px;
-}
-
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 30px;
@@ -667,9 +662,6 @@ span {
   h3 {
     font-size: 16px;
     line-height: 24px;
-  }
-  .h3 {
-    font-weight: 400;
   }
   .news-item-img {
     width: 100%;

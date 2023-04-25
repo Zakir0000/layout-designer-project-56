@@ -601,7 +601,7 @@ span {
   margin-bottom: 100px;
 }
 
-.page-similar-item p:nth-child(2) {
+.page-similar-inner p:nth-child(2) {
   font-size: 18px;
   line-height: 27px;
   font-weight: 700;
@@ -699,7 +699,7 @@ span {
     margin-top: 0;
   }
   .page-description-inner {
-    padding: 225px 0 0;
+    padding: 225px 20px 0;
   }
   .page-description-inner-main {
     padding: 248px 20px 0;
@@ -802,7 +802,7 @@ span {
   .page-similar-header {
     line-height: 27px;
   }
-  .page-similar-item p {
+  .page-similar-inner p {
     width: 137px;
     line-height: 1.4;
   }
